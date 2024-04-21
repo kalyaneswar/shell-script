@@ -12,8 +12,8 @@ git add <file-name>
 4. Commit the changes
 ```
 git commit -m "<reson why u commited>
-Note: -m --> message
 ```
+Note: -m --> message
 5. Push the changes to GitHUB/Central repo
 ```
 git push -u origin main
