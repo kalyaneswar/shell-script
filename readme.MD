@@ -14,6 +14,7 @@ git add <file-name>
 git commit -m "<reson why u commited>
 ```
 Note: -m --> message
+
 5. Push the changes to GitHUB/Central repo
 ```
 git push -u origin main
@@ -21,3 +22,6 @@ git push -u origin main
 
 **Naming convection: use small case with hyphons(-), No spaces**
 
+```
+git add . ; git commit -m "<some-message>" ; git push -u origin main
+```
