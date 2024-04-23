@@ -13,3 +13,19 @@ echo "All movie are ${MOVIES[@]}"
 
 # Length of the array
 echo "Number of elements in the array: ${#MOVIES[@]}"
+
+# Adding elements to the array
+MOVIES+=( "RRR" "PREMALU" )
+
+# to get all list
+echo "All movie before deletion are ${MOVIES[@]}"
+
+echo "about to delete one movie"
+# Deleting an element from the array
+unset 'MOVIES[2]'
+
+# Length of the array after deletion
+echo "Number of elements in the array: ${#MOVIES[@]}"
+
+# to get all list
+echo "All movie list after deletion are ${MOVIES[@]}"
