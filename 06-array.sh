@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOVIES=["AWE" "ONE" "DJ"]
+MOVIES=("AWE" "ONE" "DJ")
 
 # arrays as ways starts with 0
 
