@@ -9,4 +9,7 @@ echo "Second movie is ${MOVIES[1]}"
 echo "Third movie is ${MOVIES[2]}"
 
 # to get all list
-echo "Third movie is ${MOVIES[@]}"
+echo "All movie are ${MOVIES[@]}"
+
+# Length of the array
+echo "Number of elements in the array: ${#MOVIES[@]}"
