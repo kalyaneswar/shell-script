@@ -14,6 +14,7 @@ echo "All movie are ${MOVIES[@]}"
 # Length of the array
 echo "Number of elements in the array: ${#MOVIES[@]}"
 
+echo "adding movies"
 # Adding elements to the array
 MOVIES+=( "RRR" "PREMALU" )
 
