@@ -3,7 +3,7 @@
 # IF condition
 NUM=$1
 
-if [ $NUM -gt 10]
+if [ $NUM -gt 10 ]
 then
     echo "Number is grater than 10"
 else 
