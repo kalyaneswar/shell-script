@@ -11,7 +11,7 @@ echo "Total no of sum $num1 and $num2 is :$sum"
 
 
 # Add the numbers using expr command
-sum_b=$(expr $num1+$num2)
+sum_b=$(expr $num1 + $num2)
 
 # Print the result
 echo "The sum of $num1 and $num2 is: $sum_b"
