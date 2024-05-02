@@ -14,10 +14,10 @@ VALIDATE(){
     # echo "What are you doing : $2"
     if [ $1 -ne 0 ]
     then
-        echo "$2..FAILURE"
+        echo "$2..$R FAILURE $N"
         exit 1
     else
-        echo "$2..SUCESS"
+        echo "$2..$R SUCESS $N"
     fi
 }
 
