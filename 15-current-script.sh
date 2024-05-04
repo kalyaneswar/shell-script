@@ -9,3 +9,8 @@ echo "Process id of current shell script: $$"
 
 echo "Before Calling other script , course: $COURSE"
 
+echo "Now calling with source command"
+source ./16-other-script.sh
+
+ 
+
